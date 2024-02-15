@@ -1,0 +1,103 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+
+body {
+  background-color: #f0f0f0;
+}
+
+.japanese-restaurant {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%
+}
+
+.japanese-restaurant img{
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #f0f0f0;
+}
+
+.japanese-restaurant h1 {
+  font-family: 'Didot';
+  margin: 5px 0;
+}
+
+.japanese-restaurant h2 {
+  font-family: 'Apple Chancery';
+  color: #CC5500;
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.food {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.food div {
+  text-align: left;
+}
+
+.food img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.menu-info h3{
+  color:#333;
+  font-weight: bold;
+}
+
+.menu-info p {
+  margin: 10px 0;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.price-and-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #d3d3d3;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.button img {
+  width: 20px;
+  height: auto;
+}
